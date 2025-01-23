@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Roboto Condensed", serif;
+    background-color: #050b14;
+}
+
+.container  {
+    margin: 2rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 2rem;
+}
+
+
+.custom-item {
+    padding: 2rem 1.5rem;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background-color: #0B1B32;
+    color:rgb(233, 194, 122);
+    /* box-shadow: 0px 0px 10px goldenrod; */
+    font-size: 17px;
+    transition: 0.4s;
+
+}
+
+.custom-item .title{
+    color: goldenrod;
+    font-size: larger;
+}
+
+.custom-item:hover{
+    box-shadow: 0px 0px 10px #ffffff9a;
+    cursor: pointer;
+}
