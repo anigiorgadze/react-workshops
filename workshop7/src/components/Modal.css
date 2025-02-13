@@ -1,0 +1,36 @@
+.modal-overlay {
+    position: fixed;    /* ფიქსირებული პოზიცია ეკრანზე */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0b1b329b; /* ნახევრად გამჭვირვალე ფონი */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /*确保 მოდალი იქნება ზედა ფენაზე */
+  }
+  
+  /* მოდალის შიდა კონტენტი */
+  .modal-content {
+    border: 3px double goldenrod;
+    color: goldenrod;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px; /* შეიძლება შეცვალოთ როგორც გსურთ */
+    text-align: center;
+  }
+
+  .modal-content button{
+    width: 100px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    background-color: goldenrod;
+    color: #0B1B32;
+    border: 1px solid goldenrod;
+    margin-top: 30px;
+    font-weight: 500;
+    margin:10px ;
+  }
